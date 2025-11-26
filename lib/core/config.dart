@@ -3,7 +3,7 @@
 class Config {
   /// URL base de tu API (sin slash final)
   static const String BASE_URL =
-      'https://oncontrolbackend-gtbdhpc9fgd2epdx.westus3-01.azurewebsites.net';
+      'http://10.0.2.2:8080';
 
   /// Rutas relativas a BASE_URL
   static const String LOGIN_URL = '/api/v1/authentication/sign-in';

@@ -9,6 +9,7 @@ abstract class PatientRepository {
   Future<void> createProfile(
     PatientProfile profile
   );
+  
 
     /// Sube la foto de perfil y devuelve la URL
   Future<String> uploadProfilePhoto(
