@@ -13,7 +13,5 @@ abstract class PatientRepository {
 
     /// Sube la foto de perfil y devuelve la URL
   Future<String> uploadProfilePhoto(
-    File file,
-    String token,
-  );
+    File file, int userId, String token);
 }

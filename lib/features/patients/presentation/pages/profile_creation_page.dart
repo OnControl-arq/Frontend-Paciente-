@@ -194,6 +194,7 @@ class _ProfileCreationPageState extends State<ProfileCreationPage> {
       try {
         final url = await _repository.uploadProfilePhoto(
           File(picked.path),
+          widget.userId, // ID real del usuario
           token,
         );
         if (mounted) {
